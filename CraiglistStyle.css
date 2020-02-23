@@ -236,8 +236,6 @@ i {
   font-family:'Open Sans', sans-serif;
 }
 
-
-
 footer {
   position: fixed;
   height: 80px;
@@ -266,3 +264,64 @@ footer {
   color: white;
   text-decoration: underline;
 }
+
+@media screen and (max-width : 320px){
+  h1{
+    letter-spacing: 0.1em;
+    font-size: 25pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+  .navbar{
+    visibility: hidden;
+  }
+  footer{
+  visibility: hidden;
+}
+  .button1{
+    visibility: hidden;
+  }
+  .button2{
+    visibility: hidden;
+  }
+  .dropbtn{
+    visibility:hidden;
+  }
+  .down{
+    visibility: hidden;
+  }
+  .locationIcon{
+    visibility: hidden;
+  }
+}
+
+/* @media screen and (min-width:713px){
+  body{
+    background-color: white;
+  }
+  .centertext{
+    margin: 30px 30px;
+    text-align: center;
+  }
+  .intro-text{
+    font-size: 20px;
+  }
+  figcaption{
+    font-size:20px;
+    color: black;
+  }
+  img{
+    width:110%;
+  }
+  h2{
+    justify-content: center;
+  }
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  }
+
+} */
