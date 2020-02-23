@@ -176,14 +176,14 @@ i {
 .searchIcon {
   font-size: 22pt;
   color: #D5AE74;
-  /* margin-top: 20px;
-  margin-right: 15px; */
+  margin-top: 20px;
+  margin-right: 15px;
   height: 40px;
   width: 40px;
   display: inline-block;
   position: absolute;
-  /* right: 500px;
-  top: 245px; */
+  right: 500px;
+  top: 245px;
 }
 
 .fas {
@@ -311,6 +311,18 @@ footer {
     position: fixed;
     top:8px;
     left: 147px;
+  }
+  .searchInput {
+    background-color: white;
+    width: 75%;
+    height: 30px;
+    border: transparent;
+    outline: 0;
+    font-size: 30px;
+    display: inline-block;
+    font-family:'Open Sans', sans-serif;
+    text-align: center;
+    margin: 25px 10px auto 65px;
   }
 }
 
