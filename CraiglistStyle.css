@@ -9,7 +9,7 @@ body {
 
 h1 {
   text-align: center;
-  width: 100%
+  width: 100%;
   display: inline-block;
   font-family: Times New Roman;
   color: #416CB7;
@@ -296,10 +296,10 @@ footer {
   }
   .searchBox{
     background-color: white;
-    height: 25px;
+    height: 30px;
     width: 85%;
     border-radius: 10px;
-    margin-top: -130px;
+    margin-top: -10px;
     box-shadow:1px 1px 5px #E2E2E2;
   }
   .searchIcon {
@@ -309,7 +309,7 @@ footer {
     width: 40px;
     display: inline-block;
     position: fixed;
-    top: -12px;
+    top: 110px;
     left: 147px;
   }
   .searchInput {
@@ -323,36 +323,25 @@ footer {
     display: inline-block;
     font-family:'Open Sans', sans-serif;
     text-align: center;
-    margin: 3px 4px 0px 0px;
+    margin: 9px 4px 0px 0px;
   }
-}
 
-/* @media screen and (min-width:713px){
-  body{
-    background-color: white;
-  }
-  .centertext{
-    margin: 30px 30px;
-    text-align: center;
-  }
-  .intro-text{
+  .navbar2{
+    background-color: #B8C2D7;
+    font-family:'Open Sans', sans-serif;
     font-size: 20px;
-  }
-  figcaption{
-    font-size:20px;
-    color: black;
-  }
-  img{
-    width:110%;
-  }
-  h2{
-    justify-content: center;
-  }
-  .container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
+    color: white;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 10px;
   }
 
-} */
+  .navitem2{
+    display: inline-block;
+    text-align: center;
+    margin: auto 5px;
+  }
+
+}
