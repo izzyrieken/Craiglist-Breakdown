@@ -264,7 +264,16 @@ footer {
   text-decoration: underline;
 }
 
+
+
 @media screen and (max-width : 380px){
+  body{
+    background-color: white;
+    background-size: 50%;
+    width: 1005
+
+  }
+
   h1{
     letter-spacing: 0.1em;
     font-size: 20pt;
@@ -273,6 +282,7 @@ footer {
     border-bottom: 1px solid #DCDCDC;
 
   }
+
   .navbar{
     visibility: hidden;
   }
@@ -292,6 +302,9 @@ footer {
     visibility: hidden;
   }
   .locationIcon{
+    visibility: hidden;
+  }
+  .locationBox{
     visibility: hidden;
   }
   .searchBox{
@@ -338,10 +351,36 @@ footer {
     padding: 10px 10px;
   }
 
-  .navitem2{
+  .navbar2 a {
     display: inline-block;
+    color: #416CB7;
     text-align: center;
-    margin: auto 5px;
+    margin: auto 20px;
+    font-size: 20pt;
+    border: 0;
   }
+
+  .textblob{
+    font-size: 35px;
+    color: #D5AE74;
+    margin-top: -225px;
+    margin-left: 25px;
+  }
+.categorybuttons{
+  text-align: center;
+  margin-top: 95px;
+
+}
+
+.categories{
+  background-color: #D5AE74;
+  color: white;
+  font-family:'Open Sans', sans-serif;
+  font-size: 26px;
+  margin: 10px 5px;
+  padding: 10px;
+  border: 2px transparent ;
+  border-radius: 10px;
+}
 
 }
